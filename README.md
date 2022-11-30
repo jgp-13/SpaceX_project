@@ -3,4 +3,3 @@
 - The price of each launch could be determined using the data of previous launches. The information can be gathered and analysed to create dashboards to predict success based on data analysis. 
 - Also, it would be possible to predict if the first stage will land successfully using a machine learning model trained with public information.
 - Python language and Python’s libraries were used to make the analysis.
-![image](https://user-images.githubusercontent.com/112409591/204878966-2eaf2541-a62d-4a7e-9851-4da176d0f420.png)
