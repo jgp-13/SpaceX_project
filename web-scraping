@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T13:12:44.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="73R56RixHq28AstiDkLV" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-01T14:43:51.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="j2yebYYG96dRx7kJxKv0" version="20.6.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="950" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-0" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-1" value="Import libraries" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-2" value="Create helper Functions" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-3" value="Request the HTML text" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-4" value="Transofrm the response to BeautifulSoup Object" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="320" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-10" value="Find all tables" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-11" value="Get all titles from a table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="500" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-13" value="For each &lt;br&gt;title name" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="105" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-14" value="if name &lt;br&gt;exists and&amp;nbsp; it is larger &lt;br&gt;than 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="282.5" y="200" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-15" value="Append to column_names" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-16" value="Create an empty dict with column_names" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-17" value="For &lt;br&gt;every table&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="470" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-18" value="if&lt;br&gt;flight_number&amp;nbsp;&lt;br&gt;is a digit4&lt;br&gt;(flag=1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="565" y="80" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-19" value="If&amp;nbsp;&lt;br&gt;heading" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-20" value="if&amp;nbsp;&lt;br&gt;string" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="750" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-21" value="for &lt;br&gt;every row" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-22" value="Flight Number" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-23" value="if isidigit&lt;br&gt;flag = 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="920" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-24" value="flag = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-25" value="identify all data cells" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="990" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-26" value="get all data from the row" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-27" value="Append data to dictionary" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-28" value="Launch_dict:&lt;br&gt;Flight No.,&lt;br&gt;Launch site,&lt;br&gt;Payload,&lt;br&gt;Payload mass,&lt;br&gt;Orbit,&lt;br&gt;Customer,&lt;br&gt;Launch Outcome,&lt;br&gt;Version Booster,&lt;br&gt;Booster landing,&lt;br&gt;Date,&lt;br&gt;Time" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=21;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="340" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-29" value="Create a DataFrame" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U2vHoJ_1Qboyty_8p6-z-30" value="Create a csv file" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.08823529411764705;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="555" y="640" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
