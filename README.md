@@ -44,14 +44,18 @@ To run this project locally, follow the steps below:
 - Python 3.11
 - Jupyter Lab or Jupyter Notebook
 - Required libraries:
+  * pandas
+  * numpy
+  * requests
+  * datetime
+  * os
+  * sys	
 
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - plotly
-  - xgboost (for machine learning)
+  * scikit-learn
+  * matplotlib
+  * seaborn
+  * plotly
+  * xgboost (for machine learning)
 
 
 ## Acknowledgements  
