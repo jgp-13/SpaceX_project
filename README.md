@@ -41,29 +41,29 @@ To run this project locally, follow the steps below:
 
 ### Prerequisites
 
-- Python 3.11
-- Jupyter Lab or Jupyter Notebook
-- Required libraries:
-  * pandas
-  * numpy
-  * requests
-  * datetime
-  * os
+- Python 3.11  
+- Jupyter Lab or Jupyter Notebook  
+- Required libraries:  
+  * pandas  
+  * numpy  
+  * requests  
+  * datetime  
+  * os  
   * sys	
 
-  * scikit-learn
-  * matplotlib
-  * seaborn
-  * plotly
-  * xgboost (for machine learning)
+  scikit-learn
+  matplotlib
+  seaborn
+  plotly
+  xgboost (for machine learning)
 
 
 ## Acknowledgements  
 
 - **Forest Katsch** at zlsadesign.com for the diagrams and infographics.  
 - **SpaceX** for providing publicly available data on rocket launches.  
-- **Joseph Santarcangelo, PhD**, for creating the original IBM notebook on which this project is based.  
-- This project is based on an **IBM-provided dataset and notebook structure**. The analysis, modifications, and additional insights presented here are my own. The original notebook includes a copyright notice from IBM (**Copyright © 2021 IBM Corporation. All rights reserved.**).  
+- The original notebooks on which this project is based were developed by **IBM Skills Network**.
+- This project is based on an **IBM-provided dataset and notebook structure**. The analysis, modifications, and additional insights presented here are my own. The original notebooks includes a copyright notice from IBM (**Copyright © 2021 IBM Corporation. All rights reserved.**).  
 
 
 ## License
