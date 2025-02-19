@@ -1,4 +1,4 @@
-Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Version Booster,Booster landing,Date,Time
+Flight_Number,Launch_Site,Payload,Payload_Mass,Orbit,Customer,Launch_Outcome,Booster_Version,Booster_Landing,Date,Time
 1,CCAFS,Dragon Spacecraft Qualification Unit,0,LEO,SpaceX,Success,F9 v1.07B0003.18,Failure,4 June 2010,18:45
 2,CCAFS,Dragon,0,LEO,NASA,Success,F9 v1.07B0004.18,Failure,8 December 2010,15:43
 3,CCAFS,Dragon,525 kg,LEO,NASA,Success,F9 v1.07B0005.18,No attempt,22 May 2012,07:44
