@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="space_x",
-    version="0.2",
+    name="spacex",
+    version="0.3",
     packages=find_packages(),
     install_requires=[
-        "pandas", 'numpy',  # Add other dependencies here if needed
+        "pandas", 'numpy',  'jupysql', 'psycopg2', 'toml', # Add other dependencies here if needed
     ],
 )
