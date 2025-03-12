@@ -3,7 +3,7 @@
 ## Overview  
 This project provides a structured analysis of **SpaceX Falcon 9 launch data**, focusing on historical trends, landing success probabilities, and cost estimation in commercial spaceflight. It documents the **methodology, data processing, and machine learning approach** used to extract key insights.  
 
-For visual trends and graphical analysis, refer to the **[SpaceX Data Visualisation Report](./SpaceX_Data_Visualisation_Report.md)**.  
+For visual trends and graphical analysis, refer to the **[SpaceX Data Visualisation Report](./DATA_VISUALISATION_REPORT.md)**.  
 
 
 ## Methodology  
