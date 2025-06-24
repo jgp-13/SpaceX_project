@@ -1,5 +1,31 @@
 # SpaceX Data Analysis Project  
 
+## TL;DR
+
+Objective: Predict Falcon 9 landing success  
+Tools: Python, SQL, Tableau  
+Result: Identified key predictors of success (e.g. booster type, site) and created an interactive dashboard
+
+This approach applies to:
+- **Delivery/Logistics**: Predicting on-time success
+- **Product Reliability**: Analysing production outcome logs
+- **Subscription Models**: Customer churn pattern recognition
+
+![Launch Site Success Rate](https://raw.githubusercontent.com/jgp-13/SpaceX_project/master/figures/Launch_Site_Success_Rate.png)
+
+
+## Project Summary
+
+This project analyses SpaceX Falcon 9 launch data to uncover patterns driving mission success. It uses Python for data cleaning, exploration, and visualisation, followed by a Tableau dashboard for stakeholder insight delivery.
+
+Techniques applied here are relevant to business use cases such as:
+- Predicting delivery or production success rates
+- Evaluating performance across categories (regions, vendors, teams)
+- Analysing binary outcomes (success/failure, churn/stay, buy/not-buy)
+
+[See Full Report](./DATA_VISUALISATION_REPORT.md) | [View Dashboard](https://public.tableau.com/app/profile/josuegomezparada/viz/SpaceX_17407674922060/Dashboard1)
+
+
 ## Overview  
 This project provides a structured analysis of **SpaceX Falcon 9 launch data**, focusing on historical trends, landing success probabilities, and cost estimation in commercial spaceflight. It documents the **methodology, data processing, and machine learning approach** used to extract key insights.  
 
@@ -60,7 +86,9 @@ For an in-depth analysis of key visual trends, refer to the **[SpaceX Data Visua
 ### SQL-Based Insights  
 - **Falcon 9 carried an average payload of 6,130.55 kg**, demonstrating its operational versatility.  
 - **NASA CRS missions transported 47,094.7 kg of cargo**, highlighting the rocket’s role in ISS resupply.  
-- **Launch successes improved significantly from 2014 onward**, reaching an **80% success rate by 2020**.  
+- **Launch successes improved significantly from 2014 onward**, reaching an **80% success rate by 2020**.
+
+![Payload vs Success](https://raw.githubusercontent.com/jgp-13/SpaceX_project/master/figures/Payload_Mass_vs_Success_BoxPlot.png)
 
 ### Predictive Modelling Outcomes  
 - **Logistic regression** provided the highest **in-sample accuracy (94.4%)**, whereas **decision trees** demonstrated better generalisation.  
