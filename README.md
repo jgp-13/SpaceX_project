@@ -88,8 +88,6 @@ For an in-depth analysis of key visual trends, refer to the **[SpaceX Data Visua
 - **NASA CRS missions transported 47,094.7 kg of cargo**, highlighting the rocket’s role in ISS resupply.  
 - **Launch successes improved significantly from 2014 onward**, reaching an **80% success rate by 2020**.
 
-![Payload vs Success](https://raw.githubusercontent.com/jgp-13/SpaceX_project/master/figures/Payload_Mass_vs_Success_BoxPlot.png)
-
 ### Predictive Modelling Outcomes  
 - **Logistic regression** provided the highest **in-sample accuracy (94.4%)**, whereas **decision trees** demonstrated better generalisation.  
 - **Payload mass** alone was not a strong determinant of landing success; **booster version and flight history** were more significant predictors.  
