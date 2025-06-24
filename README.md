@@ -2,9 +2,9 @@
 
 ## TL;DR
 
-Objective: Predict Falcon 9 landing success  
+Objective: Predict *Falcon 9* landing success  
 Tools: Python, SQL, Tableau  
-Result: Identified key predictors of success (e.g. booster type, site) and created an interactive dashboard
+Result: Identified key predictors of success (e.g. Launch Site, Orbit) and created an interactive dashboard
 
 This approach applies to:
 - **Delivery/Logistics**: Predicting on-time success
