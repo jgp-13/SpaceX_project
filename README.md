@@ -11,7 +11,7 @@ This approach applies to:
 - **Product Reliability**: Analysing production outcome logs
 - **Subscription Models**: Customer churn pattern recognition
 
-![Launch Site Success Rate](https://raw.githubusercontent.com/jgp-13/SpaceX_project/master/figures/Launch_Site_Success_Rate.png)
+![Yearly increase of Success Rate](https://github.com/jgp-13/SpaceX_project/blob/master/notebooks/figures/l5_year_vs_success_rate.jpg)
 
 
 ## Project Summary
